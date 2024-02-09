@@ -6,7 +6,7 @@ type PositionerStub struct {
 }
 
 // NewPositionerStub creates a new PositionerStub
-func NewPositionerStub(distance float64) *PositionerStub {
+func NewPositionerStub() *PositionerStub {
 	return &PositionerStub{}
 }
 
