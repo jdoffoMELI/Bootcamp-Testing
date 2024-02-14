@@ -9,7 +9,7 @@ type PreyStub struct {
 }
 
 // NewPreyStub creates a new PreyStub
-func NewPreyStub(speed float64, position *positioner.Position) *PreyStub {
+func NewPreyStub() *PreyStub {
 	return &PreyStub{}
 }
 
