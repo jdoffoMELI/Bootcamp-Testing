@@ -1,7 +1,7 @@
 package main
 
 import (
-	"app/internal/application"
+	"app_test_challenge/internal/application"
 	"fmt"
 )
 

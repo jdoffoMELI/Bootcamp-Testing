@@ -1,6 +1,6 @@
 package repository
 
-import "app/internal"
+import "app_test_challenge/internal"
 
 // NewProductsMap returns a new ProductsMap.
 func NewProductsMap(db map[int]internal.Product) *ProductsMap {

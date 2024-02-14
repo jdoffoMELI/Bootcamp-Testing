@@ -1,7 +1,7 @@
 package response_test
 
 import (
-	"app/platform/web/response"
+	"app_test_challenge/platform/web/response"
 	"net/http"
 	"net/http/httptest"
 	"testing"

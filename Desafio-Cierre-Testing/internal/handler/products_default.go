@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"app/internal"
-	"app/platform/web/response"
+	"app_test_challenge/internal"
+	"app_test_challenge/platform/web/response"
 	"net/http"
 	"strconv"
 )

@@ -1,8 +1,8 @@
 package application
 
 import (
-	"app/internal/handler"
-	"app/internal/repository"
+	"app_test_challenge/internal/handler"
+	"app_test_challenge/internal/repository"
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
@@ -18,7 +18,7 @@ type ConfigApplicationDefault struct {
 // NewApplicationDefault returns a new ApplicationDefault.
 func NewApplicationDefault(cfg *ConfigApplicationDefault) *ApplicationDefault {
 	// default values
-	defaultRt  := chi.NewRouter()
+	defaultRt := chi.NewRouter()
 	defaultCfg := &ConfigApplicationDefault{
 		Addr: ":8080",
 	}
